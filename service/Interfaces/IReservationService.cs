@@ -4,6 +4,8 @@ namespace service.Interfaces
 {
     public interface IReservationService
     {
-        void reserve(ReservationRecord record);
+        ReservationRecord reserve(ReservationRecord record);
+        List<ReservationRecord> getAllReservationRecordsOfUser(User user);
+        ReservationRecord removeReservation(ReservationRecord record);
     }
 }

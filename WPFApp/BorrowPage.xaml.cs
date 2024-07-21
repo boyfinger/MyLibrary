@@ -67,9 +67,9 @@ namespace WPFApp
                     throw new Exception(ex.Message);
                 }
                 record.UserId = user.UserId;
-                iBorrowService.borrow(record);
+                BorrowRecord borrowRecord = iBorrowService.borrow(record);
                 LoadList();
-                MessageBox.Show("Borrowed book successfully!", "Borrow book");
+                MessageBox.Show($"Borrowed book {borrowRecord.Book.Title} successfully!", "Borrow book");
             }
             catch (Exception ex)
             {
@@ -92,9 +92,9 @@ namespace WPFApp
                     throw new Exception("Please select a book!");
                 }
                 record.UserId = user.UserId;
-                iReservationService.reserve(record);
+                ReservationRecord reservationRecord = iReservationService.reserve(record);
                 LoadList();
-                MessageBox.Show("Reserved book successfully!", "Reserve book");
+                MessageBox.Show($"Reserved book {reservationRecord.Book.Title} successfully!", "Reserve book");
             }
             catch (Exception ex)
             {

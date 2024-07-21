@@ -7,5 +7,6 @@ namespace bo.Interface
         List<Book> getAllBooks();
         Book getBookById(int id);
         void updateBookAfterBorrowing(int bookId);
+        void updateBookAfterReturning(int bookId);
     }
 }

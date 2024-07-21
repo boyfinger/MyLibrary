@@ -16,7 +16,13 @@
     <Compile Update="BorrowRecordsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CommentsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReservationRecordsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserWindow.xaml.cs">
@@ -33,10 +39,16 @@
     <Page Update="BorrowRecordsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="CommentsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Converters.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReservationRecordsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserWindow.xaml">

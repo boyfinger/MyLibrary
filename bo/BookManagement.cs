@@ -23,6 +23,24 @@ namespace bo
                 book.Quantity = (byte?)(quantity - 1);
                 BookDAO.updateBook(book);
             }
+            else
+            {
+                throw new Exception("Borrowing failed!");
+            }
+        }
+
+        public void updateBookAfterReturning(int bookId)
+        {
+            Book book = BookDAO.getBookById(bookId);
+            if (book != null)
+            {
+                book.Quantity = (byte?)(book.Quantity + 1);
+                BookDAO.updateBook(book);
+            }
+            else
+            {
+                throw new Exception("Returning failed!");
+            }
         }
     }
 }

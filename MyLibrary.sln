@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "model", "model\model.csproj", "{84B717BE-A366-4FEC-A78C-32E104756877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "model", "model\model.csproj", "{84B717BE-A366-4FEC-A78C-32E104756877}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dal", "dal\dal.csproj", "{0CAF260D-5658-4F6E-82A0-5B4E6F82C3FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dal", "dal\dal.csproj", "{0CAF260D-5658-4F6E-82A0-5B4E6F82C3FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFApp", "WPFApp\WPFApp.csproj", "{396D355C-35C9-446F-884C-B2116F3DA86B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFApp", "WPFApp\WPFApp.csproj", "{396D355C-35C9-446F-884C-B2116F3DA86B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "service\service.csproj", "{D8F41EF6-7EF4-4DD2-91A6-D1A87F159C5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "service", "service\service.csproj", "{D8F41EF6-7EF4-4DD2-91A6-D1A87F159C5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bo", "bo\bo.csproj", "{17FBEFC6-DF3C-4E18-B2BB-1350ADDC8DC6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{E9218A80-843E-4F26-A40D-7B7D3764CA79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bo", "bo\bo.csproj", "{17FBEFC6-DF3C-4E18-B2BB-1350ADDC8DC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{17FBEFC6-DF3C-4E18-B2BB-1350ADDC8DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17FBEFC6-DF3C-4E18-B2BB-1350ADDC8DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17FBEFC6-DF3C-4E18-B2BB-1350ADDC8DC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E9218A80-843E-4F26-A40D-7B7D3764CA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9218A80-843E-4F26-A40D-7B7D3764CA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9218A80-843E-4F26-A40D-7B7D3764CA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9218A80-843E-4F26-A40D-7B7D3764CA79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

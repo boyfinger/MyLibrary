@@ -4,7 +4,8 @@ namespace bo.Interface
 {
     public interface IReservationManagement
     {
-        void removeReservation(ReservationRecord record);
+        ReservationRecord removeReservation(ReservationRecord record);
         void reserve(ReservationRecord record);
+        List<ReservationRecord> getAllReservationRecordsOfUser(User user);
     }
 }

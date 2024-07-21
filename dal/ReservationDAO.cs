@@ -39,5 +39,11 @@ namespace dal
                 throw new Exception("Reserving failed!");
             }
         }
+
+        public static List<ReservationRecord> getAllReservationRecordsOfUser(User user)
+        {
+            var db = new LibraryContext();
+            return db.ReservationRecords.Where(r => r.UserId == user.UserId).ToList();
+        }
     }
 }

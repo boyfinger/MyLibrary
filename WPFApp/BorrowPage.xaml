@@ -10,7 +10,7 @@
 
     <Grid Background="White">
         <Label x:Name="lbBookTitle_Copy" Foreground="Black" FontWeight="DemiBold" HorizontalAlignment="Center"
-    FontSize="20" Content="Borrow book" />
+            FontSize="20" Content="Borrow book" />
         <DockPanel VerticalAlignment="Top" Margin="0,50,0,0">
             <Grid>
                 <Grid.RowDefinitions>
@@ -21,52 +21,51 @@
                 </Grid.RowDefinitions>
                 <!--StackPanel for Label and TextBox controls-->
                 <StackPanel Background="LightBlue" Orientation ="Vertical"
- HorizontalAlignment="Left" Width="400">
+                    HorizontalAlignment="Left" Width="400">
                     <Label Name="lbBookTitle" Foreground="Red" FontWeight="DemiBold"
- FontSize="20" Content="Book Information" />
+                        FontSize="20" Content="Book Information" />
                     <Label Name="lbBookID" Content="Book ID"/>
                     <TextBox Name="txtBookID" HorizontalAlignment="Stretch"
-Height="25"
-Text="{Binding Path=BookId, Mode=OneWay}" 
-DataContext="{Binding ElementName=lvBook, 
-Path=SelectedItem}" 
-                             IsReadOnly="True"/>
+                        Height="25"
+                        Text="{Binding Path=BookId, Mode=OneWay}" 
+                        DataContext="{Binding ElementName=lvBook, 
+                        Path=SelectedItem}" 
+                        IsReadOnly="True"/>
                     <Label Name="lbTitle" Content="Title"/>
                     <TextBox Name="txtTitle" HorizontalAlignment="Stretch" IsReadOnly="True"
- Height="25"
- Text="{Binding Path=Title, Mode=OneWay}" 
- DataContext="{Binding ElementName=lvBook, 
- Path=SelectedItem}" />
+                        Height="25"
+                        Text="{Binding Path=Title, Mode=OneWay}" 
+                        DataContext="{Binding ElementName=lvBook, 
+                        Path=SelectedItem}"/>
                     <Label Name="lbAuthor" Content="Author" />
                     <TextBox Name="txtAuthor" HorizontalAlignment="Stretch" IsReadOnly="True"
- Height="25"
-Text="{Binding Path=Author, Mode=OneWay}"
- DataContext="{Binding ElementName=lvBook,
- Path=SelectedItem}" />
+                        Height="25"
+                        Text="{Binding Path=Author, Mode=OneWay}"
+                        DataContext="{Binding ElementName=lvBook,
+                        Path=SelectedItem}"/>
                     <Label Name="lbReturnDate" Content="Return Date" />
                     <DatePicker Name="txtDueDate"
-            SelectedDateFormat="Short">
-
+                        SelectedDateFormat="Short">
                     </DatePicker>
                 </StackPanel>
                 <!--StackPanel for Button controls-->
                 <StackPanel Grid.Row="1" Orientation="Horizontal"
- HorizontalAlignment="Left">
+                    HorizontalAlignment="Left">
                     <Button x:Name="btnBorrow" Margin="10" Width="80" Content="Borrow"
- Click="btnBorrow_Click"/>
+                        Click="btnBorrow_Click"/>
                     <Button x:Name="btnReserve" Margin="10" Width="80" Content="Reserve"
-Click="btnReserve_Click"/>
+                        Click="btnReserve_Click"/>
                 </StackPanel>
                 <!-- ListView control-->
                 <ListView Grid.Row="2" Name="lvBook" Width="Auto" Height="Auto" >
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="Book ID" Width="100"
-DisplayMemberBinding="{Binding Path=BookId }"/>
+                                DisplayMemberBinding="{Binding Path=BookId }"/>
                             <GridViewColumn Header="Title" Width="200"
- DisplayMemberBinding="{Binding Path=Title }"/>
+                                DisplayMemberBinding="{Binding Path=Title }"/>
                             <GridViewColumn Header="Author" Width="200"
-                                            DisplayMemberBinding="{Binding Path=Author}"/>
+                                DisplayMemberBinding="{Binding Path=Author}"/>
                         </GridView>
                     </ListView.View>
                 </ListView>

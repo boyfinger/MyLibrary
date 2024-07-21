@@ -88,3 +88,11 @@ E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\
 E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\BorrowPage.g.cs
 E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\BorrowPage.baml
 E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\BorrowRecordsPage.g.cs
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\BorrowRecordsPage.baml
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\Converters.baml
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\WPFApp.sourcelink.json
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\ReservationRecordsPage.g.cs
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\ReservationRecordsPage.baml
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\CommentsPage.g.cs
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\obj\Debug\net8.0-windows\CommentsPage.baml

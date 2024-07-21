@@ -18,3 +18,4 @@ E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\service\obj
 E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\service\obj\Debug\net8.0\service.pdb
 E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\service\obj\Debug\net8.0\ref\service.dll
 E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\service\bin\Debug\net8.0\appsettings.json
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\service\obj\Debug\net8.0\service.sourcelink.json

@@ -1,5 +1,6 @@
 ﻿using bo;
 using bo.Interface;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using model;
 using service.Interfaces;
 
@@ -56,7 +57,7 @@ namespace service
             return ret; 
         }
 
-        public void borrow(BorrowRecord borrowRecord)
+        public BorrowRecord borrow(BorrowRecord borrowRecord)
         {
             ReservationRecord reservationRecord = new ReservationRecord
             {
@@ -64,10 +65,48 @@ namespace service
                 BookId = borrowRecord.BookId,
             };
             borrowRecord.BorrowDate = DateOnly.FromDateTime(DateTime.Now);
+            try
+            {
+                iReservationManagement.removeReservation(reservationRecord);
+            }
+            catch
+            {
+
+            }
+            iBookManagement.updateBookAfterBorrowing(borrowRecord.BookId);
             iBorrowManagement.borrow(borrowRecord);
 
-            iReservationManagement.removeReservation(reservationRecord);
-            iBookManagement.updateBookAfterBorrowing(borrowRecord.BookId);
+            borrowRecord.Book = iBookManagement.getBookById(borrowRecord.BookId);
+            return borrowRecord;
+        }
+
+        public List<BorrowRecord> getAllBorrowRecordsOfUser(User user)
+        {
+            var ret = new List<BorrowRecord>();
+            foreach (BorrowRecord record in iBorrowManagement.getAllBorrowRecordsOfUser(user))
+            {
+                var book = iBookManagement.getBookById(record.BookId);
+                record.Book = book;
+                ret.Add(record);
+            }
+            return ret;
+        }
+
+        public BorrowRecord returnBook(BorrowRecord record)
+        {
+            BorrowRecord borrowRecord = iBorrowManagement.returnBook(record);
+            iBookManagement.updateBookAfterReturning(record.BookId);
+
+            borrowRecord.Book = iBookManagement.getBookById(borrowRecord.BookId);
+            return borrowRecord;
+        }
+
+        public BorrowRecord changeReturnDate(BorrowRecord record)
+        {
+            BorrowRecord borrowRecord = iBorrowManagement.changeReturnDate(record);
+
+            borrowRecord.Book = iBookManagement.getBookById(borrowRecord.BookId);
+            return borrowRecord;
         }
     }
 }

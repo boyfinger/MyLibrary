@@ -13,20 +13,20 @@
             VerticalAlignment="Top" Height="30" Width="90" 
             Click="btnBorrow_Click"/>
         <Button Content="Borrow records" HorizontalAlignment="Left" Margin="140,10,0,0"
-    VerticalAlignment="Top" Height="30" Width="90" 
-    Click="btnBorrowRecords_Click"/>
+            VerticalAlignment="Top" Height="30" Width="90" 
+            Click="btnBorrowRecords_Click"/>
         <Button Content="Reservation records" HorizontalAlignment="Left" Margin="250,10,0,0"
-VerticalAlignment="Top" Height="30" Width="120" 
-Click="btnReservationRecords_Click"/>
+            VerticalAlignment="Top" Height="30" Width="120" 
+            Click="btnReservationRecords_Click"/>
         <Button Content="Comments" HorizontalAlignment="Left" Margin="390,10,0,0"
-VerticalAlignment="Top" Height="30" Width="80" 
-Click="btnComments_Click"/>
+            VerticalAlignment="Top" Height="30" Width="80" 
+            Click="btnComments_Click"/>
         <Button Content="Log out" HorizontalAlignment="Left" Margin="530,10,0,0" 
-VerticalAlignment="Top" Height="30" Width="50" 
-Click="btnLogOut_Click"/>
+            VerticalAlignment="Top" Height="30" Width="50" 
+            Click="btnLogOut_Click"/>
         <Button Content="Close" HorizontalAlignment="Left" Margin="600,10,0,0" 
-VerticalAlignment="Top" Height="30" Width="50" 
-Click="btnClose_Click"/>
+            VerticalAlignment="Top" Height="30" Width="50" 
+            Click="btnClose_Click"/>
         <Frame x:Name="frMain" NavigationUIVisibility="Visible" Margin="0,50,0,0"/>
     </Grid>
 </Window>

@@ -16,3 +16,4 @@ E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\bo\obj\Debu
 E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\bo\obj\Debug\net8.0\bo.pdb
 E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\bo\obj\Debug\net8.0\ref\bo.dll
 E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\bo\bin\Debug\net8.0\appsettings.json
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\bo\obj\Debug\net8.0\bo.sourcelink.json

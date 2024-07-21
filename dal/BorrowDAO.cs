@@ -1,4 +1,5 @@
-﻿using model;
+﻿using Microsoft.EntityFrameworkCore;
+using model;
 
 namespace dal
 {
@@ -25,7 +26,7 @@ namespace dal
             }
             catch
             {
-                throw new Exception("Borrowing failed!");
+                throw new Exception("Inserting record failed!");
             }
         }
 
@@ -34,6 +35,34 @@ namespace dal
             var db = new LibraryContext();
             return db.BorrowRecords.FirstOrDefault(br => br.UserId == record.UserId 
                 && br.BookId == record.BookId);
+        }
+
+        public static void removeBorrowRecord(BorrowRecord record)
+        {
+            try
+            {
+                var db = new LibraryContext();
+                db.BorrowRecords.Remove(record);
+                db.SaveChanges();
+            }
+            catch
+            {
+                throw new Exception("Removing record failed!");
+            }
+        }
+
+        public static void updateBorrowRecord(BorrowRecord record)
+        {
+            try
+            {
+                var db = new LibraryContext();
+                db.Entry<BorrowRecord>(record).State = EntityState.Modified;
+                db.SaveChanges();
+            }
+            catch
+            {
+                throw new Exception("Updating record failed!");
+            }
         }
     }
 }
