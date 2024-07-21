@@ -1,0 +1,12 @@
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\bin\Debug\net8.0\model.deps.json
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\bin\Debug\net8.0\model.dll
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\bin\Debug\net8.0\model.pdb
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\obj\Debug\net8.0\model.csproj.AssemblyReference.cache
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\obj\Debug\net8.0\model.GeneratedMSBuildEditorConfig.editorconfig
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\obj\Debug\net8.0\model.AssemblyInfoInputs.cache
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\obj\Debug\net8.0\model.AssemblyInfo.cs
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\obj\Debug\net8.0\model.csproj.CoreCompileInputs.cache
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\obj\Debug\net8.0\model.dll
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\obj\Debug\net8.0\refint\model.dll
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\obj\Debug\net8.0\model.pdb
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\model\obj\Debug\net8.0\ref\model.dll
