@@ -5,9 +5,6 @@ using service.Interfaces;
 
 namespace WPFApp
 {
-    /// <summary>
-    /// Interaction logic for LoginWindow.xaml
-    /// </summary>
     public partial class LoginWindow : Window
     {
         private readonly IUserService iUserService;
@@ -30,7 +27,7 @@ namespace WPFApp
 
                 if ((bool)user.IsAdmin)
                 {
-                    AdminWindow window = new AdminWindow(user);
+                    AdminWindow window = new AdminWindow();
                     window.Show();
                 }
                 else

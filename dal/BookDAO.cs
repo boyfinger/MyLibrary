@@ -30,5 +30,33 @@ namespace dal
                 throw new Exception("Updating book failed!");
             }
         }
+
+        public static void insertBook(Book book)
+        {
+            try
+            {
+                var db = new LibraryContext();
+                db.Books.Add(book);
+                db.SaveChanges();
+            }
+            catch
+            {
+                throw new Exception("Inserting book failed!");
+            }
+        }
+
+        public static void removeBook(Book book)
+        {
+            try
+            {
+                var db = new LibraryContext();
+                db.Books.Remove(book);
+                db.SaveChanges();
+            }
+            catch
+            {
+                throw new Exception("Removing book failed!");
+            }
+        }
     }
 }

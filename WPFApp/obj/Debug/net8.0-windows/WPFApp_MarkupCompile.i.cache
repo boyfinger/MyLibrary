@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 E:\Program Files\baby harvesting demons\Summer 2024\PRN212\MyLibrary\WPFApp\App.xaml
-8468576136
+9278640787
 
-13-1856120441
+14-952616772
 248-1114334843
-AdminWindow.xaml;BorrowPage.xaml;BorrowRecordsPage.xaml;CommentsPage.xaml;Converters.xaml;LoginWindow.xaml;ReservationRecordsPage.xaml;UserWindow.xaml;
+AdminWindow.xaml;BooksManagementPage.xaml;BorrowPage.xaml;BorrowRecordsPage.xaml;CommentsPage.xaml;Converters.xaml;LoginWindow.xaml;ReservationRecordsPage.xaml;UserWindow.xaml;
 
 True
 

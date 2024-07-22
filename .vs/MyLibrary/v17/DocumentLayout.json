@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{396D355C-35C9-446F-884C-B2116F3DA86B}|WPFApp\\WPFApp.csproj|e:\\program files\\baby harvesting demons\\summer 2024\\prn212\\mylibrary\\wpfapp\\booksmanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{396D355C-35C9-446F-884C-B2116F3DA86B}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\booksmanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{396D355C-35C9-446F-884C-B2116F3DA86B}|WPFApp\\WPFApp.csproj|E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\wpfapp\\booksmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{396D355C-35C9-446F-884C-B2116F3DA86B}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\booksmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 246,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -84,12 +93,36 @@
               "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksManagementPage.xaml.cs",
+              "DocumentMoniker": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\WPFApp\\BooksManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\BooksManagementPage.xaml.cs",
+              "ToolTip": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\WPFApp\\BooksManagementPage.xaml.cs",
+              "RelativeToolTip": "WPFApp\\BooksManagementPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T00:41:25.581Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksManagementPage.xaml",
+              "DocumentMoniker": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\WPFApp\\BooksManagementPage.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\BooksManagementPage.xaml",
+              "ToolTip": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\WPFApp\\BooksManagementPage.xaml",
+              "RelativeToolTip": "WPFApp\\BooksManagementPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T00:40:54.504Z"
             }
           ]
         },

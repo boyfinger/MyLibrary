@@ -42,5 +42,35 @@ namespace bo
                 throw new Exception("Returning failed!");
             }
         }
+
+        public void insertBook(Book book) => BookDAO.insertBook(book);
+
+        public Book updateBook(Book book)
+        {
+            Book b = BookDAO.getBookById(book.BookId);
+            if (b == null)
+            {
+                throw new Exception("Book not found!");
+            }
+            else
+            {
+                BookDAO.updateBook(book);
+                return book;
+            }
+        }
+
+        public Book removeBook(Book book)
+        {
+            Book b = BookDAO.getBookById(book.BookId);
+            if (b != null)
+            {
+                BookDAO.removeBook(book);
+                return b;
+            }
+            else
+            {
+                throw new Exception("Book not found!");
+            }
+        }
     }
 }

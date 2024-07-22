@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFApp"
         mc:Ignorable="d"
-        Title="AdminWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="AdminWindow" Height="830" Width="680"
+        WindowStartupLocation="CenterScreen">
+    <Viewbox>
+        <Grid VerticalAlignment="Top">
+            <Button Content="Manage books" HorizontalAlignment="Left" Margin="30,10,0,0" 
+                    VerticalAlignment="Top" Height="30" Width="90" 
+                    Click="btnManageBooks_Click"/>
+            <Button Content="Manage users" HorizontalAlignment="Left" Margin="150,10,0,0" 
+                VerticalAlignment="Top" Height="30" Width="90" 
+                Click="btnManageUsers_Click"/>
+            <Button Content="Log out" HorizontalAlignment="Left" Margin="450,10,0,0" 
+                VerticalAlignment="Top" Height="30" Width="90" 
+                Click="btnLogOut_Click"/>
+            <Button Content="Close" HorizontalAlignment="Left" Margin="560,10,0,0" 
+                VerticalAlignment="Top" Height="30" Width="90" 
+                Click="btnClose_Click"/>
+                <Frame x:Name="frMain" NavigationUIVisibility="Visible" Margin="0,50,0,0"/>
+        </Grid>
+    </Viewbox>
 </Window>

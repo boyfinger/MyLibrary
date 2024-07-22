@@ -10,6 +10,7 @@
         WindowStyle="None"
         Background="Transparent"
         AllowsTransparency="True">
+    <Viewbox>
     <Grid>
         <Border CornerRadius="10"                    
         BorderThickness="2"
@@ -162,5 +163,6 @@
             </Grid>
 
         </Border>
-    </Grid>
+        </Grid>
+    </Viewbox>
 </Window>
