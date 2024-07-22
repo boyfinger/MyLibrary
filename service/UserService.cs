@@ -16,16 +16,40 @@ namespace service
 
         public User login(User user)
         {
-            User u = iUserManagement.getUserByEmail(user.Email);
-            if (u == null)
+            User admin = iUserManagement.getAdmin();
+
+            if (admin != null && user.Email == admin.Email)
             {
-                throw new Exception("Email not found!");
+                if (user.Password != admin.Password) 
+                {
+                    throw new Exception("Incorrect password!");
+                }
+                user.IsAdmin = true;
+                return user;
             }
-            if (u.Password != user.Password)
+            else
             {
-                throw new Exception("Incorrect password!");
+                User u = iUserManagement.getUserByEmail(user.Email);
+                if (u == null)
+                {
+                    throw new Exception("Email not found!");
+                }
+                if (u.Password != user.Password)
+                {
+                    throw new Exception("Incorrect password!");
+                }
+                return u;
             }
-            return u;
         }
+
+        public User getAdminAccount() => iUserManagement.getAdmin();
+
+        public List<User> getAllUsers() => iUserManagement.getAllUsers();
+
+        public User insertUser(User user) => iUserManagement.insertUser(user);
+
+        public User updateUser(User user) => iUserManagement.updateUser(user);
+
+        public User removeUser(User user) => iUserManagement.removeUser(user);
     }
 }

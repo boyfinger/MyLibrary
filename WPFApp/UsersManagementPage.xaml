@@ -1,0 +1,80 @@
+﻿<Page x:Class="WPFApp.UsersManagementPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="780" d:DesignWidth="630"
+      Title="ManageUsersPage">
+
+    <Grid Background="White">
+        <DockPanel VerticalAlignment="Top" Margin="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!--StackPanel for Label and TextBox controls-->
+                <StackPanel Background="LightBlue" Orientation ="Vertical"
+                    HorizontalAlignment="Left" Width="400">
+                    <Label Name="lbBookTitle" Foreground="Red" FontWeight="DemiBold"
+                        FontSize="20" Content="User Information" />
+                    <Label Name="lbUserID" Content="User ID"/>
+                    <TextBox Name="txtUserID" HorizontalAlignment="Stretch"
+                        Height="25"
+                        Text="{Binding Path=UserId, Mode=OneWay}" 
+                        DataContext="{Binding ElementName=lvUser, 
+                        Path=SelectedItem}" 
+                        IsReadOnly="True"/>
+                    <Label Name="lbFullName" Content="Full name"/>
+                    <TextBox Name="txtFullName" HorizontalAlignment="Stretch"
+                        Height="25"
+                        Text="{Binding Path=FullName, Mode=OneWay}" 
+                        DataContext="{Binding ElementName=lvUser, 
+                        Path=SelectedItem}" />
+                    <Label Name="lbEmail" Content="Email" />
+                    <TextBox Name="txtEmail" HorizontalAlignment="Stretch"
+                        Height="25"
+                        Text="{Binding Path=Email, Mode=OneWay}"
+                        DataContext="{Binding ElementName=lvUser,
+                        Path=SelectedItem}" />
+                    <Label Name="lbPassword" Content="Password" />
+                    <TextBox Name="txtPassword" HorizontalAlignment="Stretch"
+                        Height="25"
+                        Text="{Binding Path=Password, Mode=OneWay}"
+                        DataContext="{Binding ElementName=lvUser,
+                        Path=SelectedItem}" />
+                </StackPanel>
+                <!--StackPanel for Button controls-->
+                <StackPanel Grid.Row="1" Orientation="Horizontal"
+                    HorizontalAlignment="Left">
+                    <Button x:Name="btnInsert" Margin="10" Width="80" Content="Insert"
+                        Click="btnInsert_Click"/>
+                    <Button x:Name="btnUpdate" Margin="10" Width="80" Content="Update"
+                        Click="btnUpdate_Click"/>
+                    <Button x:Name="btnDelete" Margin="10" Width="80" Content="Delete"
+                        Click="btnDelete_Click"/>
+                </StackPanel>
+                <!-- ListView control-->
+                <ListView Grid.Row="2" Name="lvUser" Width="Auto" Height="Auto" >
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="User ID" Width="100"
+                                DisplayMemberBinding="{Binding Path=UserId }"/>
+                            <GridViewColumn Header="Full name" Width="200"
+                                DisplayMemberBinding="{Binding Path=FullName }"/>
+                            <GridViewColumn Header="Email" Width="200"
+                                DisplayMemberBinding="{Binding Path=Email}"/>
+                            <GridViewColumn Header="Password" Width="100"
+                                DisplayMemberBinding="{Binding Path=Password }"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <!-- Button control-->
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Page>

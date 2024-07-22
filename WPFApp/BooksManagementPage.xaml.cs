@@ -81,7 +81,7 @@ namespace WPFApp
                 Book book = new Book();
                 try
                 {
-                    int id = int.Parse(txtBookId.Text);
+                    int id = int.Parse(txtBookID.Text);
                     book.BookId = id;
                 }
                 catch
@@ -143,7 +143,7 @@ namespace WPFApp
                 Book book = new Book();
                 try
                 {
-                    int id = int.Parse(txtBookId.Text);
+                    int id = int.Parse(txtBookID.Text);
                     book.BookId = id;
                 }
                 catch

@@ -25,12 +25,27 @@ public partial class LibraryContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    private IConfigurationRoot getConfiguration()
     {
         var builder = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-        IConfigurationRoot configuration = builder.Build();
+        return builder.Build();
+    }
+
+    public User adminAccount()
+    {
+        IConfigurationRoot configuration = getConfiguration();
+        return new User
+        {
+            Email = configuration["AdminAccount:Email"],
+            Password = configuration["AdminAccount:Password"],
+        };
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        IConfigurationRoot configuration = getConfiguration();
         optionsBuilder.UseSqlServer(configuration.GetConnectionString("MyLibraryDB"));
     }
 

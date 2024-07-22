@@ -23,7 +23,7 @@ namespace WPFApp
 
         private void btnManageUsers_Click(object sender, RoutedEventArgs e)
         {
-
+            frMain.Content = new UsersManagementPage();
         }
 
         private void btnLogOut_Click(object sender, RoutedEventArgs e)
