@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17FBEFC6-DF3C-4E18-B2BB-1350ADDC8DC6}|bo\\bo.csproj|e:\\program files\\baby harvesting demons\\summer 2024\\prn212\\mylibrary\\bo\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FBEFC6-DF3C-4E18-B2BB-1350ADDC8DC6}|bo\\bo.csproj|solutionrelative:bo\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396D355C-35C9-446F-884C-B2116F3DA86B}|WPFApp\\WPFApp.csproj|E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\wpfapp\\usersmanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396D355C-35C9-446F-884C-B2116F3DA86B}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\usersmanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396D355C-35C9-446F-884C-B2116F3DA86B}|WPFApp\\WPFApp.csproj|E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\wpfapp\\usersmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{396D355C-35C9-446F-884C-B2116F3DA86B}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\usersmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{396D355C-35C9-446F-884C-B2116F3DA86B}|WPFApp\\WPFApp.csproj|e:\\program files\\baby harvesting demons\\summer 2024\\prn212\\mylibrary\\wpfapp\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{396D355C-35C9-446F-884C-B2116F3DA86B}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +14,23 @@
       "DocumentGroups": [
         {
           "DockedHeight": 246,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:18:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -98,7 +102,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
@@ -107,39 +119,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserManagement.cs",
-              "DocumentMoniker": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\bo\\UserManagement.cs",
-              "RelativeDocumentMoniker": "bo\\UserManagement.cs",
-              "ToolTip": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\bo\\UserManagement.cs",
-              "RelativeToolTip": "bo\\UserManagement.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:17:42.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersManagementPage.xaml.cs",
-              "DocumentMoniker": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\WPFApp\\UsersManagementPage.xaml.cs",
-              "RelativeDocumentMoniker": "WPFApp\\UsersManagementPage.xaml.cs",
-              "ToolTip": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\WPFApp\\UsersManagementPage.xaml.cs",
-              "RelativeToolTip": "WPFApp\\UsersManagementPage.xaml.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAmwGEAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T03:51:34.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsersManagementPage.xaml",
-              "DocumentMoniker": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\WPFApp\\UsersManagementPage.xaml",
-              "RelativeDocumentMoniker": "WPFApp\\UsersManagementPage.xaml",
-              "ToolTip": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\WPFApp\\UsersManagementPage.xaml",
-              "RelativeToolTip": "WPFApp\\UsersManagementPage.xaml",
+              "Title": "UserWindow.xaml",
+              "DocumentMoniker": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\WPFApp\\UserWindow.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\UserWindow.xaml",
+              "ToolTip": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\MyLibrary\\WPFApp\\UserWindow.xaml",
+              "RelativeToolTip": "WPFApp\\UserWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-22T03:49:09.796Z",
+              "WhenOpened": "2024-07-25T12:15:17.889Z",
               "EditorCaption": ""
             }
           ]
